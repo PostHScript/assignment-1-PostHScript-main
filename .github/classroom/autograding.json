@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Problem 1 Compile",
+      "setup": "",
+      "run": "gcc problem1.c",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Problem 2 Test 1",
+      "setup": "gcc problem2.c",
+      "run": "./a.out",
+      "input": "hello\r\nworld\r\n",
+      "output": "hello\r\n  ^*^",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Problem 2 Test 2",
+      "setup": "gcc problem2.c",
+      "run": "./a.out",
+      "input": "class\r\nblank\r\n",
+      "output": "class\r\n **",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Problem 3 Test 1",
+      "setup": "gcc combat_menu.c",
+      "run": "./a.out",
+      "input": "1\r\n1\r\n4\r\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Problem 4",
+      "setup": "gcc read_strings.c",
+      "run": "./a.out",
+      "input": "Naomi\r\nAlex\r\nHolden\r\nBo\r\n",
+      "output": "1. Holden\r\n2. Naomi\r\n3. Alex\r\n4. Bo",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Problem 5",
+      "setup": "gcc csv_check.c",
+      "run": "./a.out",
+      "input": "inventory.csv\r\n",
+      "output": "1100,AMD Ryzen 9 3900XT,498.99\r\n2100,ASUS ROG Strix B550-E,,7\r\n3001,MSI GeForce RTX 3090",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 30
+    }
+  ]
+}
