@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int input = 0;
+    float input = 0;
 
-    scanf("%f\n", input);
+    scanf("%f", &input);
 
-    if (input > 5 and input < 15) {
+    if (input > 5 && input < 15) {
         printf("Case 1\n");
-    } else if (input = 20) {
+    } else if (input == 20) {
         printf("Case 2\n");
     } else {
         printf("Case 3\n");
     }
-
+// fixy
     return 0;
 }
