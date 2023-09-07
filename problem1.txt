@@ -1,0 +1,14 @@
+paulsantana@Pauls-MBP assignment-1-PostHScript-main % cd "/Users/paulsantana/Downloads/assignment-1-PostHScript-main/" && gcc problem1.c -o problem1 && "/Us
+ers/paulsantana/Downloads/assignment-1-PostHScript-main/"problem1
+6
+Case 1
+paulsantana@Pauls-MBP assignment-1-PostHScript-main % cd "/Users/paulsantana/Downloads/assignment-1-PostHScript-main/" && gcc problem1.c -o problem1 && "/Us
+ers/paulsantana/Downloads/assignment-1-PostHScript-main/"problem1
+20
+Case 2
+paulsantana@Pauls-MBP assignment-1-PostHScript-main % cd "/Users/paulsantana/Downloads/assignment-1-PostHScript-main/" && gcc problem1.c -o problem1 && "/Us
+ers/paulsantana/Downloads/assignment-1-PostHScript-main/"problem1
+34
+Case 3
+paulsantana@Pauls-MBP assignment-1-PostHScript-main % 
+
